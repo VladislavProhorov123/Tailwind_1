@@ -16,7 +16,7 @@ A responsive and animated pricing cards component built with **Tailwind CSS** an
 - Reusable design system with custom CSS variables (`:root`)
 - Styled buttons, dividers, and color-coded feature tags
 - Clean layout with responsive structure (max-width container)
-
+```
 ## 📂 Project Structure
 
 tailwind/
@@ -28,7 +28,7 @@ tailwind/
 ├── index.html # Main HTML file
 ├── package.json # NPM config with Tailwind dependencies
 ├── README.md # Project description
-
+```
 
 ## ⚙️ Setup & Run
 
