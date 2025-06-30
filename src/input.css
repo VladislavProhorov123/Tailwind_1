@@ -16,7 +16,7 @@
 
 @layer components {
     .container {
-        @apply max-w-screen-lg mx-auto px-4 min-h-screen flex items-start justify-center space-x-8
+        @apply max-w-screen-lg mx-auto px-4 min-h-screen flex items-start justify-center space-x-8 flex-wrap 
     }
     .button {
         @apply shadow-sm px-[53px] py-[10px] border border-[var(--button-color)] rounded-xl cursor-pointer mb-[36px] flex justify-center
@@ -27,7 +27,7 @@
 }
 
 .card {
-    @apply max-w-[288px] h-[830px] shadow-2xl border border-[var(--border-color)] rounded-3xl p-9
+    @apply max-w-[288px] h-[830px] shadow-2xl border border-[var(--border-color)] rounded-3xl p-9 mb-5
 }
 
 .card-contact {
