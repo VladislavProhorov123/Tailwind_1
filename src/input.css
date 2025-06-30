@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+    --border-color: #E5E7EB;
+    --text-color: #170F49;
+    --subtext-color: #514F6E;
+    --discount-color: #4A3AFF;
+    --mounth-color: #A0A3BD;
+    --button-color: #D9DBE9;
+    --list-color: #6F6C8F;
+    --blue-card-text: #F1F2F9;
+    --blue-card-discount: #D2CEFF;
+    --blue-line: #9E97FF;
+    --arrow-blue: #4A3AFF;
+}
+
+@layer components {
+    .container {
+        @apply max-w-screen-lg mx-auto px-4 min-h-screen flex items-start justify-center space-x-8
+    }
+    .button {
+        @apply shadow-sm px-[53px] py-[10px] border border-[var(--button-color)] rounded-xl cursor-pointer mb-[36px] flex justify-center
+    }
+    .gradient-bg {
+        background: linear-gradient(to bottom, #4A3AFF, #897FFF);
+    }
+}
+
+.card {
+    @apply max-w-[288px] h-[830px] shadow-2xl border border-[var(--border-color)] rounded-3xl p-9
+}
+
+.card-contact {
+    @apply max-w-[288px] h-[514px] shadow-2xl border border-[var(--border-color)] rounded-3xl p-9
+}
+
